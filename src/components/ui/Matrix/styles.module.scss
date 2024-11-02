@@ -1,0 +1,28 @@
+.row {
+display: flex;
+gap: 8px;
+
+div {
+    background-color: darken($color: colors.$primary, $amount: 35);
+    border-radius: 6px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+
+    span {
+        color: #FFF;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+}
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

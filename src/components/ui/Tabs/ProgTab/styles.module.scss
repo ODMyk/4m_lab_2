@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.conditionContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+.header {
+    margin: 0;
+    line-height: 28px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    min-height: 136px;
+    background-color: #FFF;
+    width: 2px;
+}

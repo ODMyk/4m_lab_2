@@ -1,0 +1,12 @@
+.button {
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}

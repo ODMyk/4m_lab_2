@@ -1,0 +1,32 @@
+.tabButton {
+    padding: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FFF;
+    aspect-ratio: 1;
+    height: 100%;
+    background-color: darken($color: colors.$primary, $amount: 35);
+    transition: background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+    &:hover {
+      background-color: lighten($color: colors.$primary, $amount: 15);
+    }
+    
+    &:active {
+      background-color: lighten($color: colors.$primary, $amount: 25);
+    }
+  }
+  
+  .tabButtonActive {
+    background-color: darken($color: colors.$primary, $amount: 10);
+  }
+  
+  .tabsListContainer {
+    display: flex;
+    background-color: darken($color: colors.$primary, $amount: 30);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 16px;
+  }
